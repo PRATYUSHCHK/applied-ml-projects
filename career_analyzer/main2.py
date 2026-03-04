@@ -1,10 +1,15 @@
 
 import streamlit as st
 import pandas as pd
+from pathlib import Path
+import streamlit as st
 
+BASE_DIR = Path(__file__).parent
+image_path = BASE_DIR / "IMAGES" / "logo.png"
+
+st.sidebar.image(image_path, width=100)
 st.set_page_config(page_title="Career Analyzer", page_icon="🚀")
 
-st.sidebar.image("IMAGES/logo.png", width=100)
 st.sidebar.text("CAREER ANALYZER")
 with st.sidebar.expander("""Career Options:
 """):
