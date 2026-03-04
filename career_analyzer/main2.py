@@ -4,7 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Career Analyzer", page_icon="🚀")
 
-st.sidebar.image("IMAGES/Screenshot 2026-02-27 214134.png", width=100)
+st.sidebar.image("IMAGES/logo", width=100)
 st.sidebar.text("CAREER ANALYZER")
 with st.sidebar.expander("""Career Options:
 """):
