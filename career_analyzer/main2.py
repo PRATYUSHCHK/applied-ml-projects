@@ -2,10 +2,10 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="AI Career Analyzer", page_icon="🚀")
+st.set_page_config(page_title="Career Analyzer", page_icon="🚀")
 
-st.sidebar.image("Screenshot 2026-02-27 214134.png", width=100)
-st.sidebar.text("AI CAREER ANALYZER")
+st.sidebar.image("D:\career-analyzer\career_analyzer\IMAGES\Screenshot 2026-02-27 214134.png", width=100)
+st.sidebar.text("CAREER ANALYZER")
 with st.sidebar.expander("""Career Options:
 """):
     st.write("""1. AIML Engineer
