@@ -27,7 +27,7 @@ with st.sidebar.expander("""Career Options:
     st.write("""
                 5. Blockchain Security Engineer """)
     
-st.title("   AI Career Readiness Analyzer")
+st.title("   Career Readiness Analyzer")
 st.markdown("### Analyze your readiness for your dream tech domain")
 
 
